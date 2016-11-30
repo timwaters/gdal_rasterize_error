@@ -1,3 +1,5 @@
+#adapted from http://svn.osgeo.org/gdal/trunk/autotest/alg/rasterize.py
+
 import os
 import sys
 from osgeo import gdal, ogr, osr
