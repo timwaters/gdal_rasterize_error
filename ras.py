@@ -19,7 +19,7 @@ rast_mem_lyr = rast_ogr_ds.CreateLayer( 'poly', srs=sr )
 
 # Add a polygon.
 
-wkt_geom_new = 'POLYGON((372 405, 176 90, 811 90, 372 405))'
+wkt_geom_new = 'POLYGON((372 405, 176 90, 500 90, 372 405))'
 
 feat = ogr.Feature( rast_mem_lyr.GetLayerDefn() )
 feat.SetGeometryDirectly( ogr.Geometry(wkt = wkt_geom_new) )
