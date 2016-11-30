@@ -1,7 +1,7 @@
 for: http://lists.osgeo.org/pipermail/gdal-dev/2016-November/045622.html
 [gdal-dev] Seg fault & error running gdal_rasterize on a non georeferenced raster
 
-'m seeing an error running GDAL 1.11.3 on Ubuntu 16.04LTS and 2.10.
+I'm seeing an error running GDAL 1.11.3 on Ubuntu 16.04LTS and 2.10.
 There was no error and it worked fine with GDAL 1.10.1 on Ubuntu
 14.04LTS.
 
@@ -75,4 +75,4 @@ ERROR 1: Unable to compute a transformation between pixel/line
 and georeferenced coordinates for treasure_island.tif.
 There is no affine transformation and no GCPs.
 Segmentation fault (core dumped)
-tim@capricorn:~/work/leiden/vagrant_gdal/
+
