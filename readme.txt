@@ -9,8 +9,9 @@ I see the error running gdal_rasterize utility and also in python.
 
 gdal_rasterize -i  -burn 17 -b 1 -b 2 -b 3 clipping.gml -l features masked.tif
 
-Python script for reference
-https://gist.github.com/timwaters/a8da4e3e209aaae955d23446c3925125
+gdal_rasterize -i  -burn 17 -b 1 -b 2 -b 3 20.gml -l features treasure_island.tif
+
+
 
 ERROR 1: Unable to compute a transformation between pixel/line
 and georeferenced coordinates for masked.tif
